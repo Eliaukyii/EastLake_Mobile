@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"svn.delete.ignoredRulesForDeletedFiles": [
+			"build\\asset-manifest.json",
+			"build\\index.html",
+			"build\\service-worker.js",
+			"build\\static"
+		]
+	}
+}

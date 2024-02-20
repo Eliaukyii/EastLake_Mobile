@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Icon/审批管理</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/审批管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M47,8 C50.3137085,8 53,10.6862915 53,14 L53,43.5555556 L35.0588143,54.1873693 C33.17275,55.305037 30.82725,55.305037 28.9411857,54.1873693 L11,43.5555556 L11,14 C11,10.6862915 13.6862915,8 17,8 L47,8 Z M25,31 L20,31 L20,36 L25,36 L25,31 Z M44,31 L28,31 L28,36 L44,36 L44,31 Z M25,22 L20,22 L20,27 L25,27 L25,22 Z M44,22 L28,22 L28,27 L44,27 L44,22 Z" id="形状结合" fill="#2071FE"></path>
+        <path d="M36,0 L58,0 C61.3137085,2.334446e-15 64,2.6862915 64,6 L64,28.1481481 L64,28.1481481 L50.0084465,36.256543 C48.1477518,37.3348541 45.8522482,37.3348541 43.9915535,36.256543 L30,28.1481481 L30,28.1481481 L30,6 C30,2.6862915 32.6862915,6.08718376e-16 36,0 Z" id="矩形" fill="#267CFF" opacity="0.3"></path>
+    </g>
+</svg>

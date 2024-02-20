@@ -1,0 +1,596 @@
+.icon_user {
+    position: absolute;
+    top: 0.28rem;
+    left: 0.28rem;
+    z-index: 5;
+}
+
+.icon-homeWall {
+    width: 3.75rem;
+    align-items: center;
+    background: url("../img/home/homeWall.png") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-accountPay {
+    width: 0.73rem;
+    height: 0.73rem;
+    align-items: center;
+    background: url("../img/home/accountpay.png") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-transaction {
+    width: 0.73rem;
+    height: 0.73rem;
+    align-items: center;
+    background: url("../img/home/transaction.png") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-payExpense {
+    width: 0.73rem;
+    height: 0.73rem;
+    align-items: center;
+    background: url("../img/icon/icon_payExpense.svg") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-payBorrow {
+    width: 0.73rem;
+    height: 0.73rem;
+    align-items: center;
+    background: url("../img/icon/icon_payBorrow.svg") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-payAllowance {
+    width: 0.73rem;
+    height: 0.73rem;
+    align-items: center;
+    background: url("../img/icon/icon_payAllowance.svg") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-payManage {
+    width: 0.73rem;
+    height: 0.73rem;
+    align-items: center;
+    background: url("../img/icon/icon_payManage.svg") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-help {
+    width: 0.73rem;
+    height: 0.73rem;
+    align-items: center;
+    background: url("../img/home/help.png") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-clear {
+    position: absolute;
+    top: 0.22rem;
+    right: 0.28rem;
+    width: 0.36rem;
+    height: 0.36rem;
+    z-index: 10;
+    background: url("../img/icon-close.png") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-clearD {
+    position: absolute;
+    top: 0.12rem;
+    right: 0.28rem;
+    width: 0.36rem;
+    height: 0.36rem;
+    z-index: 10;
+    background: url("../img/icon-close.png") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-headBack {
+    position: absolute;
+    left: 0.28rem;
+    top: 0.23rem;
+    width: 0.24rem;
+    height: 0.42rem;
+    background: url(../img/list/rn_top_back_white@2x.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-search {
+    width: 0.32rem;
+    height: 0.32rem;
+    background: url(../img/list/rn_search@2x.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-noData {
+    width: 1.3rem;
+    height: 1.3rem;
+    background: url(../img/No-Data@2x.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon_school {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 0.9rem;
+    background: url(../img/background/bf_shcool.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-goDtl {
+    position: absolute;
+    width: 0.24rem;
+    height: 0.41rem;
+    background: url(../img/list/rn_window_back@2x.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-sort {
+    display: inline-block;
+    width: 0.36rem;
+    height: 0.36rem;
+    background: url(../img/list/rn_screening@2x.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-fileView {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background: url(../img/detail/icon-fileView.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-listitem {
+    display: inline-block;
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background: url(../img/detail/icon-fileView.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.loginBg {
+    position: relative;
+    width: 100%;
+    height: 2.5rem;
+    padding-top: 0.5rem;
+    background: url(../img/background/bg-login.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    text-align: center;
+}
+
+.firstHomeBg {
+    position: relative;
+    width: 100%;
+    height: 2.2rem;
+    background: url(../img/background/bg-firstHome.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    padding: 0.28rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    align-items: center;
+}
+
+.headCir {
+    position: relative;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 0.7rem;
+    background-color: #FFFFFF;
+}
+
+.headDf {
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.4rem;
+    background: url(../img/background/head.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.userCir {
+    position: relative;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 0.7rem;
+    background-color: #F8F8F8;
+}
+
+.declareHomeBg {
+    position: relative;
+    width: 100%;
+    height: 2.7rem;
+    background: url(../img/background/bg-declareHome.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    padding: 0.28rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    align-items: flex-start;
+}
+
+.approvalHomeBg {
+    position: relative;
+    width: 100%;
+    height: 2.7rem;
+    background: url(../img/background/bg-approvalHome.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    padding: 0.28rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    align-items: flex-start;
+}
+
+.queryHomeBg {
+    position: relative;
+    width: 100%;
+    height: 2.7rem;
+    background: url(../img/background/bg-declareHome.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    padding: 0.28rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    align-items: flex-start;
+}
+
+.icon-home {
+    display: inline-block;
+    width: 0.28rem;
+    height: 0.28rem;
+    background: url(../img/icon/firsthome.svg) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-homes {
+    display: inline-block;
+    width: 0.28rem;
+    height: 0.28rem;
+    background: url(../img/icon/select_firsthome.svg) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-declare {
+    display: inline-block;
+    width: 0.28rem;
+    height: 0.28rem;
+    background: url(../img/icon/declarehome.svg) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-declares {
+    display: inline-block;
+    width: 0.28rem;
+    height: 0.28rem;
+    background: url(../img/icon/select_declarehome.svg) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-approval {
+    display: inline-block;
+    width: 0.28rem;
+    height: 0.28rem;
+    background: url(../img/icon/approvalhome.svg) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-approvals {
+    display: inline-block;
+    width: 0.28rem;
+    height: 0.28rem;
+    background: url(../img/icon/select_approvalhome.svg) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-query {
+    display: inline-block;
+    width: 0.28rem;
+    height: 0.28rem;
+    background: url(../img/icon/queryhome.svg) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon-querys {
+    display: inline-block;
+    width: 0.28rem;
+    height: 0.28rem;
+    background: url(../img/icon/select_queryhome.svg) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.itemCir {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #197efe;
+    color: #FFFFFF;
+    font-size: 0.22rem;
+}
+
+.icon_uploadFile {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url(../img/icon/icon_uploadFile.svg) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon_add {
+    display: inline-block;
+    margin-right: 0.2rem;
+    width: 0.24rem;
+    height: 0.24rem;
+    background: url(../img/icon/icon_add.svg) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon_success {
+    display: inline-block;
+    margin-right: 0.2rem;
+    width: 0.36rem;
+    height: 0.36rem;
+    background: url(../img/icon/icon_success.svg) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.iconSuccess {
+    display: inline-block;
+    margin-right: 0.2rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url(../img/icon/icon_success.svg) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon_home_declare {
+    width: 0.73rem;
+    height: 0.73rem;
+    align-items: center;
+    background: url("../img/icon/icon_home_declare.svg") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon_home_approval {
+    width: 0.73rem;
+    height: 0.73rem;
+    align-items: center;
+    background: url("../img/icon/icon_home_approval.svg") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon_home_query {
+    width: 0.73rem;
+    height: 0.73rem;
+    align-items: center;
+    background: url("../img/icon/icon_home_query.svg") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon_home_notice {
+    width: 0.73rem;
+    height: 0.73rem;
+    align-items: center;
+    background: url("../img/icon/icon_home_notice.svg") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon_home_policy {
+    width: 0.73rem;
+    height: 0.73rem;
+    align-items: center;
+    background: url("../img/icon/icon_home_policy.svg") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon_home_msg {
+    width: 0.73rem;
+    height: 0.73rem;
+    align-items: center;
+    background: url("../img/icon/icon_home_msg.svg") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon_home_myInfo {
+    width: 0.73rem;
+    height: 0.73rem;
+    align-items: center;
+    background: url("../img/icon/icon_home_myInfo.svg") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon_home_budget {
+    width: 0.73rem;
+    height: 0.73rem;
+    align-items: center;
+    background: url("../img/icon/icon_home_budget.svg") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon_home_system {
+    width: 0.73rem;
+    height: 0.73rem;
+    align-items: center;
+    background: url("../img/icon/icon_home_system.svg") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.icon_footBg {
+    position: absolute;
+    bottom: 0rem;
+    width: calc(100% - 0.56rem);
+    height: 1.5rem;
+    align-items: center;
+    background: url("../img/background/bg-foot.png") no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    z-index: 90;
+}

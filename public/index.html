@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+  <head>
+    <meta charset="utf-8" />
+    <!--<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />-->
+    <meta name="theme-color" content="#000000" />
+    <!--禁止缓存-->
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <!--禁止缩放-->
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no;" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user"s mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <!--    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />-->
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title></title>
+    <style>
+      body {
+        -webkit-text-size-adjust: 100% !important;
+      }
+
+      html,
+      body,
+      div,
+      span,
+      applet,
+      object,
+      iframe,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      blockquote,
+      pre,
+      a,
+      abbr,
+      acronym,
+      address,
+      big,
+      cite,
+      code,
+      del,
+      dfn,
+      em,
+      img,
+      ins,
+      kbd,
+      q,
+      s,
+      samp,
+      small,
+      strike,
+      strong,
+      sub,
+      sup,
+      tt,
+      var,
+      b,
+      u,
+      i,
+      center,
+      dl,
+      dt,
+      dd,
+      ol,
+      ul,
+      li,
+      fieldset,
+      form,
+      label,
+      legend,
+      table,
+      caption,
+      tbody,
+      tfoot,
+      thead,
+      tr,
+      th,
+      td,
+      article,
+      aside,
+      canvas,
+      details,
+      embed,
+      figure,
+      figcaption,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      output,
+      ruby,
+      section,
+      summary,
+      time,
+      mark,
+      audio,
+      video {
+        margin: 0;
+        padding: 0;
+        user-select: none;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-box-sizing: border-box;
+      }
+
+      ol,
+      ul {
+        list-style: none;
+      }
+
+      a,
+      img {
+        border: none;
+      }
+
+      * {
+        box-sizing: border-box;
+        user-select: none;
+        -webkit-touch-callout: none;
+        /*系统默认菜单被禁用*/
+        -webkit-user-select: none;
+        /*webkit浏览器*/
+        -khtml-user-select: none;
+        /*早期浏览器*/
+        -moz-user-select: none;
+        /*火狐*/
+        -ms-user-select: none;
+        /*IE10*/
+      }
+
+      input,
+      textarea {
+        -webkit-appearance: none;
+        -webkit-user-select: auto;
+      }
+
+      textarea {
+        resize: none;
+      }
+
+      html,
+      body,
+      input,
+      textarea,
+      button {
+        font-size: 0.26rem;
+      }
+
+      html,
+      body,
+      div,
+      input,
+      textarea,
+      p,
+      span,
+      i {
+        font-family: "微软雅黑";
+      }
+
+      /*防止点击元素出现闪烁*/
+
+      html,
+      body {
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      }
+
+      input::-webkit-input-placeholder,
+      textarea::-webkit-input-placeholder {
+        color: #cacaca;
+        line-height: normal;
+      }
+
+      a:link {
+        font-size: 0.26rem;
+        color: #000000;
+        text-decoration: none;
+      }
+
+      a:visited {
+        font-size: 0.26rem;
+        color: #000000;
+        text-decoration: none;
+      }
+
+      a:hover {
+        font-size: 0.26rem;
+        color: #999999;
+        text-decoration: underline;
+      }
+    </style>
+    <script>
+      window.onload = function () {
+        document.querySelector("#root").style.display = "";
+        document.querySelector("#tips").style.display = "none";
+        clearTimeout(load);
+      };
+
+      var load = setTimeout(() => {
+        document.querySelector("#tips").innerHTML = "唉！网速有点慢，休息一会儿！";
+      }, 8000);
+    </script>
+    <script>
+
+      var typeP = "";
+      var sUserAgent = navigator.userAgent.toLowerCase();
+      var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+      var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+      var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+      var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+      var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+      var bIsAndroid = sUserAgent.match(/android/i) == "android";
+      var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+      var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+      if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+        typeP = "phone";
+      } else {
+        typeP = "pc";
+      }
+      var deviceWidth = document.documentElement.clientWidth;
+      if (typeP == "phone") {
+        if (deviceWidth > 640) {
+          deviceWidth = 640;
+        }
+        document.documentElement.style.fontSize = deviceWidth / 6.4 + "px";
+      }
+      else {
+        deviceWidth = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = deviceWidth / deviceWidth * 100 + "px";
+      }
+      //微信浏览器禁止缩放
+      if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
+        handleFontSize();
+      } else {
+        if (document.addEventListener) {
+          document.addEventListener("WeixinJSBridgeReady", handleFontSize, false);
+        } else if (document.attachEvent) {
+          //IE浏览器，非W3C规范
+          document.attachEvent("onWeixinJSBridgeReady", handleFontSize);
+        }
+      }
+      function handleFontSize() {
+        // 设置网页字体为默认大小
+        WeixinJSBridge.invoke("setFontSizeCallback", { "fontSize": 0 });
+        // 重写设置网页字体大小的事件
+        WeixinJSBridge.on("menu:setfont", function () {
+          WeixinJSBridge.invoke("setFontSizeCallback", { "fontSize": 0 });
+        });
+      }
+
+    </script>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root" style="display: none;"></div>
+    <div id="tips">正在加载中...</div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+
+</html>

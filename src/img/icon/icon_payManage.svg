@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Icon/薪酬</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.2586667,10.2221583 L10.22235,19.258475 L19.2586667,28.2924917 L28.2924917,19.258475 L19.2586667,10.2221583 Z M19.1666667,38.3333333 C8.5813,38.3333333 0,29.7520333 0,19.1666667 C0,8.58110833 8.5813,0 19.1666667,0 C29.752225,0 38.3333333,8.58110833 38.3333333,19.1666667 C38.3333333,29.7520333 29.752225,38.3333333 19.1666667,38.3333333 L19.1666667,38.3333333 Z" id="path-1"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05-1-1审批" transform="translate(-121.000000, -240.000000)">
+            <g id="Icon/薪酬" transform="translate(121.000000, 240.000000)">
+                <g id="椭圆形" transform="translate(0.833333, 0.833333)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="蒙版" fill="#FFAC16" xlink:href="#path-1"></use>
+                    <circle fill="#FFD75C" mask="url(#mask-2)" cx="24.5833333" cy="-1.25" r="8.75"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

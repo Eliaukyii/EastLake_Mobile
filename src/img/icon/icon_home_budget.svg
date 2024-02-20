@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Icon/投资管理</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/投资管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M44,40 C32.954,40 24,31.046 24,20 C24,8.954 32.954,0 44,0 C55.046,0 64,8.954 64,20 C64,31.046 55.046,40 44,40 L44,40 Z" id="路径" fill="#267CFF" opacity="0.3"></path>
+        <path d="M32,21.818 L21.818,32 L32,42.182 L42.182,32 L32,21.818 Z M32,56 C18.7448,56 8,45.2552 8,32 C8,18.7448 18.7448,8 32,8 C45.2552,8 56,18.7448 56,32 C56,45.2552 45.2552,56 32,56 L32,56 Z" id="Fill-1" fill="#2071FE"></path>
+    </g>
+</svg>

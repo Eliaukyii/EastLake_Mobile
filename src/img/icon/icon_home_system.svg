@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Icon/系统管理</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/系统管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="路径" fill="#267CFF" opacity="0.3" points="52.2863524 0 35.7136476 0 24 11.7136476 24 28.2817708 35.7136476 40 52.2817708 40 64 28.2863524 64 11.7136476"></polygon>
+        <path d="M32,41.1274497 C26.9583644,41.1274497 22.8725503,37.0416356 22.8725503,32 C22.8725503,26.9583644 26.9583644,22.8725503 32,22.8725503 C37.0416356,22.8725503 41.1274497,26.9583644 41.1274497,32 C41.1274497,37.0416356 37.0416356,41.1274497 32,41.1274497 L32,41.1274497 Z M41.9436229,8 L22.0563771,8 L8,22.0563771 L8,41.938125 L22.0563771,56 L41.938125,56 L56,41.9436229 L56,22.0563771 L41.9436229,8 Z" id="Fill-1" fill="#2071FE"></path>
+    </g>
+</svg>
